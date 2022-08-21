@@ -924,7 +924,7 @@ footer img{
 		width: 100%;
 		height: 0px;
 		transition: all 300ms ease;
-		/*z-index: 100;*/
+		z-index: 150;
 		opacity: 0;
 		visibility: hidden;
 
