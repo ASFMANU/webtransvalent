@@ -392,25 +392,24 @@ button:hover{
 	text-align: center;
 	align-items: center;
 	margin: 30px;
+	justify-content:space-between;
 }
 #lo_mejor .container h2{
 	width: 100%;
 	font-size: 35px;
 	padding: 0px 60px;
-
 }
 
 #lo_mejor .container p{
 	width: 100%;
 	font-size: 25px;
 	padding: 0px;
-	min-width: 50px;
 }
 
 #lo_mejor .container img{
 		height: 450px;
 		width:100%; 
-		padding-left: 100px;
+		padding: 50px;
 }
 
 /*Edicion de la Seccion Enfoque*/
@@ -766,12 +765,6 @@ footer img{
 		direction: flex;
 		flex-direction: column;
 		margin: 20px 0px;
-
-
-	}
-
-
-
 	}
 
 	#lo_mejor .container img{
