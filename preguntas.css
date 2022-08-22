@@ -28,6 +28,10 @@ header{
 	flex-direction: row;
 	background-color: black;
 }
+.hedersuperior .Datospersonales a{
+	font-size: 15PX;
+	text-align: center;
+}
 .container_menu{
 	max-width: 1600px;
 	/*margin: 0px;*/
@@ -76,8 +80,8 @@ header .redes_sociales a:hover{
 }*/
 
 header .redes_sociales img{
-	width: 60px;
-	padding: 5px 12px;
+	width: 40px;
+	padding: 5px 10px;
 }
 
 header img{ height: 45px; }
