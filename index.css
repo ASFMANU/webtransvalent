@@ -397,12 +397,14 @@ button:hover{
 	width: 100%;
 	font-size: 35px;
 	padding: 0px 60px;
+
 }
 
 #lo_mejor .container p{
 	width: 100%;
 	font-size: 25px;
-	padding: 0px 60px;
+	padding: 0px;
+	min-width: 50px;
 }
 
 #lo_mejor .container img{
@@ -764,6 +766,11 @@ footer img{
 		direction: flex;
 		flex-direction: column;
 		margin: 20px 0px;
+
+
+	}
+
+
 
 	}
 
