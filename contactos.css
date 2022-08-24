@@ -10,6 +10,54 @@
 	font-family: 'League Gothic', sans-serif;
 	text-decoration: none;
 }
+/*Configuracion Pre-Loader*/
+.preloader{
+	height: 100vh;
+	background-color:#000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.preloader img{
+	margin: 15px;
+	width: 200px;
+	height: 100px;
+}
+.hidden{
+	overflow: hidden;
+}
+.lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 32px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
 /*Header Superior*/
 
 header{
@@ -381,6 +429,10 @@ button:hover{
 #contacto .background{
 }
 
+#Mimailto{
+	opacity: 0;
+}
+
 #contacto .form .from-header .form-title{
 	font-weight: normal;
 	font-family: sans-serif;
@@ -706,9 +758,15 @@ align-items: center;
 	}
 
 /*Edición de la sección Descisión*/
-
+#descision {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 #descision nav{
-	
+	width: 100%;
+	height: 10vh;
 	background-color:rgb(30,30,30);
 	color: white;
 	display: flex;
@@ -721,7 +779,7 @@ align-items: center;
 
 #descision p{
 	font-size: 2.5vw;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 #descision button{
 	font-size: 1.55vw;

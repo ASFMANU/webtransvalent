@@ -9,8 +9,12 @@
 	<link rel="stylesheet" type="text/css" href="contactos.css">
 	<title>Transporte Transvalent SAC .- Preguntas Frecuentes</title>
 </head>
-<body>
+<body class="hidden">
 	<header>
+		<div class="preloader" id="onload">
+	<div><img src="img/logo.png" alt="Transvalent"></div>	
+	<div class="lds-hourglass"></div>
+	</div>
 		<div class="hedersuperior">
 			<div class="logo">
 			<img src="img/logo.png" alt="Transvalent">
@@ -118,7 +122,7 @@
 <section id="contacto">
 	<div class="background">
 	<div class="contenedor">
-		<form action="" class="form">
+		<form action="" class="form" id="formulario">
 		<div class="from-header"> 
 				<h1 class="form-title">C<span>ontacto</span></h1>
 		</div>
@@ -135,10 +139,11 @@
 				<input type="text" name="telefono" class="form-input" placeholder="Escriba su Télefono">
 
 				<label for="mensaje" class="form-label">Mensaje:</label>
-				<textarea id="mensaje" class="form-textarea" placeholder="Aquí escriba su nensaje"></textarea>
+				<textarea id="mensaje" name="msge" class="form-textarea" placeholder="Aquí escriba su nensaje"></textarea>
 
 				<input type="submit" class="btn-submit" value="Enviar Consulta">
 		</form>
+		<a href="mailto:operadorlogisticotransvalent@gmail.com" id="Mimailto">mail</a>
 	</div>
 	
 	</div>
@@ -168,6 +173,8 @@
 			</div>
 		</div>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="index.js"></script>
 <script type="text/javascript" src="contacto.js"></script>
 </body>
 </html>	

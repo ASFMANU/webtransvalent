@@ -9,8 +9,12 @@
 	<link rel="stylesheet" type="text/css" href="servicios.css">
 	<title>Transporte Transvalent SAC</title>
 </head>
-<body>
+<body class="hidden">
 	<header>
+		<div class="preloader" id="onload">
+	<div><img src="img/logo.png" alt="Transvalent"></div>	
+	<div class="lds-hourglass"></div>
+	</div>
 		<div class="hedersuperior">
 			<div class="logo">
 			<img src="img/logo.png" alt="Transvalent">
@@ -208,7 +212,7 @@
 	<section id="descision">
 		<nav>
 			<p><b><span class="color-acento">Descubra que estamos al alcance de su presupuesto</span></b> ¡Llámenos y compruebelo!</p> 
-			<b><button>¡Contactenos ahora!</button></b>
+			<b><button onclick="contactos()">¡Contactenos ahora!</button></b>
 		</nav>
 	</section>
 
@@ -228,6 +232,7 @@
 			</div>
 		</div>
 	</footer>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
