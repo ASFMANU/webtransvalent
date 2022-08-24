@@ -58,7 +58,7 @@ header{
 }
 
 header .redes_sociales nav{
-	background-color: rgb(245,245,245);
+	/*background-color: rgb(245,245,245);*/
 	background-position: center;
 	align-items: justify;
 	display: flex;
@@ -80,9 +80,10 @@ header .redes_sociales a:hover{
 }*/
 
 header .redes_sociales img{
-	width: 25px;
-	height: 25px;
-	padding: 5px 5px;
+	width: 55px;
+	height: 55px;
+	padding: 10px 10px;
+	border-radius: 25px;
 }
 
 header img{ height: 45px; }
@@ -138,11 +139,11 @@ nav > ul > li > a:hover{
 }
 
 nav > ul > li:first-child > a{
-	background-image: url(icon/home.jpg);
-	background-size: 55px;
+	background-image: url(icon/home4.jpg);
+	background-size: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	padding: 10px 20px;	
+	padding: 15px 36px;	
 }
 nav > ul > li:first-child > a:hover{
 	transform: scale(1.1);
@@ -731,17 +732,17 @@ footer .containers{
 	height: 100%;
 	justify-content: space-between;
 	text-align: center; 
-	padding: 40px;
-	font-size: 1.7em;
+	padding: 15px;
+	font-size: 0.7em;
 
 }
 
 footer .logo img{
-	height: 80px;
-	width: 120px;
+	height: 40px;
+	width: 100px;
 }
 footer nav{
-	background-color: rgb(245,245,245);
+	/*background-color: rgb(245,245,245);*/
 	background-position: center;
 	align-items: justify;
 	display: flex;
@@ -756,15 +757,15 @@ footer .redessociales a:hover{
 	background-color: darkorange;
 }
 footer a{
-	padding: 5px 12px;
+	padding: 1px 5px;
 	text-decoration: none;
 	font-weight: bold;
-
-	
 }
 
 footer img{
+	width: 35px;
 	height: 35px;
+	border-radius: 25px;
 }
 
 .icon_menu{
@@ -938,7 +939,7 @@ footer img{
 		background-color: : rgba(30,30,30);
 		position: fixed;
 		left: 0;
-		top: 180px;
+		top: 149px;
 		width: 100%;
 		height: 0px;
 		transition: all 300ms ease;
@@ -1030,17 +1031,31 @@ footer img{
 
 
 
-	footer .containers{
+footer .containers{
+	padding: 10px;
+	margin: 5px;
 	display: flex;
 	flex-direction:column;
 	width: 100%;
 	height: auto;
 	justify-content: space-between;
 	text-align: center; 
-	font-size: 1.7em;
+	font-size: 0.8em;
 	align-items: center;
+}
+
+footer .containers .redessociales{
+	margin: 10px;
 
 }
 
+footer .containers .redessociales a{
+	padding: 5px 5px;
+}
 
+footer .containers .redessociales img{
+	width: 30px;
+	height: 25px;
+	border-radius: 10px;
+}
 }
