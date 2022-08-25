@@ -129,11 +129,10 @@ header .redes_sociales a:hover{
 }*/
 
 header .redes_sociales img{
-	width: 55px;
-	height: 55px;
-	padding: 10px 10px;
+	width: 35px;
+	height: 35px;
+	padding: 5px;
 	border-radius: 25px;
-
 }
 
 header img{ height: 45px; }
@@ -144,12 +143,18 @@ width: 100%;
 height: 70px;
 background-color: black;
 padding: 0 20px;
+display: flex;
+flex-direction: row;
+left: 20px;
+
+
 }
 
 .menu{
 	max-width: 1200px;
 	margin: auto;
-	height: 100%
+	height: 100%;
+	margin-left: 0;
 }
 
 nav{
@@ -205,7 +210,9 @@ nav > ul > li:first-child > a:hover{
 	background-color:gray;
 	box-shadow: 0px 0px 25px 0px rgba(150,0,0,0.10);
 }
-
+#imgMenu{
+	display: none;
+}
 /*SUB MENU*/
 
 nav > ul > li > ul{
@@ -455,14 +462,16 @@ button:hover{
 
 }
 #preguntas img{
-	width: 100%;
+	width: 97%;
 	height: 100%;
 	border-radius: 15px;
+	box-shadow: 0 0 15px -1px rgba(0,0,0,.5);
+	margin: 15px;
 }
 #preguntas .container-faq{
 	width: 70%;
 	box-shadow: 0 0 15px -1px rgba(0,0,0,.1);
-	padding: 30px;
+	padding: 10px;
 }
 
 #preguntas .container-faq .title-faq{
@@ -487,9 +496,9 @@ button:hover{
 	justify-content: space-between;
 	align-items: center;
 	background: rgba(43,51,122,.2);
-	padding: 20px 20px 20px 80px;
+	padding: 10px 20px 20px 50px;
 	margin-top: 15px;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	transition: .4ms;
 	border-radius: 10px; 
 }
@@ -513,31 +522,31 @@ button:hover{
 #preguntas .container-faq .item-faq .question span{
 	position: absolute;
 	left: 20px;
-	font-size: 2em;
+	font-size: 2.2em;
 	top:1px;
 	opacity: .1;
 }
 
 #preguntas .container-faq .item-faq .answer{
 	position: relative;
-	padding: 0 20px 0 80px;
+	padding: 0 20px 0 50px;
 	overflow: hidden;
 	height: 0;
 	transition: .4ms;
 }
 
 #preguntas .container-faq .item-faq .answer p{
-	font-size: 1.3em;
+	font-size: 1.1em;
 
 }
 
 #preguntas .container-faq .item-faq .answer li{
-	font-size: 1.3em;	
+	font-size: 1.1em;	
 }
 #preguntas .container-faq .item-faq .answer span{
 	position: absolute;
 	left: 20px;
-	font-size:4em;
+	font-size:3.5em;
 	top:-1px;
 	opacity: .1;
 }
@@ -952,6 +961,9 @@ footer img{
 		display: none;
 	}
 
+#preguntas .container-faq{
+	width: 100%;
+}
 	#preguntas .row{
 		display: flex;
 		flex-direction: column;
@@ -965,6 +977,7 @@ footer img{
 	#preguntas .imgpreguntas img{
 			width: 350px;
 			height: 200px;
+			margin: 15px;
 	}
 
 	#lo_mejor{

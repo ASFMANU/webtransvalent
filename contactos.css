@@ -118,9 +118,9 @@ header .redes_sociales a:hover{
 
 
 header .redes_sociales img{
-	width: 55px;
-	height: 55px;
-	padding: 10px 10px;
+	width: 35px;
+	height: 35px;
+	padding: 5px;
 	border-radius: 25px;
 }
 
@@ -133,12 +133,18 @@ width: 100%;
 height: 70px;
 background-color: black;
 padding: 0 20px;
+display: flex;
+flex-direction: row;
+left: 20px;
+
+
 }
 
 .menu{
 	max-width: 1200px;
 	margin: auto;
-	height: 100%
+	height: 100%;
+	margin-left: 0;
 }
 
 nav{
@@ -192,7 +198,9 @@ nav > ul > li:first-child > a:hover{
 	background-color:gray;
 	box-shadow: 0px 0px 25px 0px rgba(150,0,0,0.10);
 }
-
+#imgMenu{
+	display: none;
+}
 /*SUB MENU*/
 
 nav > ul > li > ul{
