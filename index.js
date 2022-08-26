@@ -27,7 +27,7 @@ window.onscroll = function(){
 	}else{
 		
 		document.getElementById('headerSup').style.display = 'none';
-		ulList[0].style.top = '63px';
+		ulList[0].style.top = '64px';
 		document.getElementById('imgMenu').style.display = 'block';
 		document.getElementById('imgMenu').style.margin = '15px';
 	}
